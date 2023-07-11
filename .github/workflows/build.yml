@@ -54,4 +54,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: release-${{ matrix.rust_target }}
-          path: output_dir/pg2parquet
+          path: output_dir/pg2parquet*
